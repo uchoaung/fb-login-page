@@ -1,0 +1,312 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: tahoma;
+
+}
+
+
+
+.fb-header{
+	background:linear-gradient(#4C67A1,#3B5998);
+	overflow: hidden;
+	padding-top: 10px;
+	padding-bottom: 3px;
+
+
+
+
+
+}
+
+
+.mid {
+	width: 80%;
+	margin: auto;
+}
+
+.logo {
+	width: 60%;
+	float: left;
+	margin-top: 10px;
+	
+
+}
+
+.login-area{
+	width: 40%;
+	float: left;
+
+
+}
+
+
+.login1 input, .login2 input{
+	display: block;
+	padding: 3px;
+	margin-top: 4px;
+	border: 1px solid #1d2a5b;
+	margin-right: 4px;
+	
+
+}
+
+.login1 label, .login2 label{
+
+	font-size: 13px;
+	color: white;
+
+}
+
+.login2 a{
+	text-decoration: none;
+	font-size: 13px;
+	color: #9cb4d8;
+}
+
+.login2 a:hover{
+	text-decoration: underline;
+}
+
+.login3 input:hover{
+	background-color: #365899;
+	cursor: pointer;
+}
+
+.login3 input{
+	
+	background-color: #4267b2;
+	border: 1px solid #29487d;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 11px;
+	padding: 4px;
+	margin-top: 24px;
+
+
+}
+
+
+.login1, .login2, .login3{
+ float: left;
+}
+
+
+.fb-body{
+	background:linear-gradient(#FFFFFF, #D3D8E8);
+	overflow: hidden;
+}
+
+
+
+
+
+.body-left{
+	width: 57%;
+	float: left;
+}
+
+.body-left h2{
+	font-size: 20px;
+	color: #0e385f;
+	margin-top: 40px;
+	width: 86%;
+}
+
+.body-right{
+	width: 43%;
+	float: left;
+
+}
+
+.body-right h1{
+	font-size: 36px;
+	margin-top: 20px;
+	color: #333;
+}
+
+.body-right h2 {
+	color: #1d2129;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 15px 0px;
+}
+
+
+.input-area {
+	overflow: hidden;
+	width: 84%;
+
+}
+
+.input-area input {
+	width: 100%;
+	margin-bottom: 5px;
+	padding: 8px 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	border: 1px solid #bdc7d8;
+	box-sizing: border-box;
+}
+
+.input-area input:nth-child(1) {
+	width: 49%;
+}
+
+.input-area input:nth-child(2) {
+	width: 49%;
+	float: right;
+}
+
+.birth-day {
+	margin-top: 15px;
+	overflow: hidden;
+}
+
+.birth-day h3 {
+	color: #1d2129;
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+.birth-day  select {
+	padding: 5px;
+	border: 1px solid #bdc7d8;
+	float: left;
+}
+
+.birth-day  a {
+	text-decoration: none;
+	color: #365899;
+	font-size: 11px;
+	width: 150px;
+	display: block;
+	float: left;
+	margin-left: 10px;
+}
+
+.gender {
+	margin-top: 15px;
+}
+
+.gender p{
+	color: #777;
+	font-size: 11px;
+	margin:20px 0px;
+	width: 316px;
+}
+
+.gender p a{
+	text-decoration: none;
+	color: #365899;
+}
+
+.gender label {
+	font-size: 18px;
+	color: #1d2129;
+	margin-right: 20px;
+	vertical-align: top;
+}
+
+.button p{
+	font-size: 13px;
+	color: #666;
+	font-weight: bold;
+	margin: 20px 0px;
+}
+
+.button p a {
+	text-decoration: none;
+	color: #365899;
+
+}
+
+.button  input {
+	padding: 7px 20px;
+	font-size: 19px;
+	background: linear-gradient(#67ae55, #578843);
+	color: #FFF;
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: inset 0 1px 1px #a4e388;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.button  input:hover {
+	background:  linear-gradient(#79bc64, #578843);
+}
+
+.fb-footer{
+	background-color: white;
+
+}
+
+.top-footer{
+	border-bottom: 1px solid #dddfe2;
+
+}
+
+.top-footer ul{
+	list-style: none;
+
+	
+}
+
+.top-footer ul li{
+	display: inline-block;
+}
+
+.top-footer ul li a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #365899;
+	display: block;
+	padding: 10px 5px;
+
+
+}
+
+
+.top-footer ul li a:hover {
+	text-decoration: underline;
+
+
+}
+
+
+
+
+.mid-footer ul{
+	list-style: none;
+}
+
+
+.mid-footer ul li{
+	display: inline-block;
+	width: 8%;
+
+}
+
+
+.mid-footer ul li a{
+	text-decoration: none;
+	display: block;
+	font-size: 12px;
+	color: #365899;
+	padding: 0px 5px; 
+}
+
+.mid-footer ul li a:hover{
+	text-decoration: underline;
+}
+
+
+.bottom-footer p{
+
+	margin:20px 5px;
+	font-size: 10px;
+}
